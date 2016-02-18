@@ -7,7 +7,7 @@
 
 %% Name of the author
 \author{Sergey Hayrapetyan}
-
+\usepackage{amsthm}
 %% Title (and possibly subtitle) of the thesis
 \title{Hub Labels}
 
@@ -117,12 +117,48 @@ A very important condition is that for all nodes of the graph, there should be a
 \end{center}
 The size of the label is the number of hubs. 
 The label size should be as small as possilble to save memory space and process faster queries. 
-That means that the algorithm which generates labels should not only satisfy the cover property but also it should generate labels with small sizes.
+That means that the algorithm which generates labels should not only satisfy the cover property but also it should
+generate labels with small sizes.
 In the first section is described about hub labels and its advantages. 
 In the second section we will talk about hierarchical and canonical labels. 
-Afterwards in the next section is described the way of label generation, included queries and label pruning by calculating the canonical labels. 
-In last 2 Chapters it will be explained how to change IDs of hubs which are appearing frequently in labels to compress it and save space.
+Afterwards in the next section is described the way of label generation, included queries and label pruning by
+calculating the canonical labels. 
+In last 2 Chapters it will be explained how to change IDs of hubs which are appearing frequently in labels to compress
+it and save space.
 The last section is about results, label sizes and query time.
+
+\section{Canonical Labeling}
+	We say that a hierarchical labeling L respects a total order r if the implied partial order is consistent with r. 
+
+	Given an order r, a canonical labeling is the labeling that contains only hubs which are the highest ranked on the
+		shortest path ${P}_{st}$ and are included in Forward label of s and in backward label of t.
+			A canonical labeling is hierarchical by construction: the vertex v that we add to the labels of s and t
+			has the 	highest rank on ${P}_{st}$, and therefore r(v) $\geq$ r(s) and r(v) $\geq$ r(t).
+
+				This also implies that the canonical labeling respects r. \\
+
+\newtheorem{H_in_C}{Theorem}
+
+ \begin{H_in_C}
+ 
+
+	Let $\mathcal{L}$ be a hierarchical labeling, r any total order such that $\mathcal{L}$
+	respects r, and $\mathcal{L'}$ the canonical labeling for r. Then $\mathcal{L'}$ is contained in $\mathcal{L}$.
+ \end{H_in_C}
+\begin{proof}
+Consider the shortest path P from s to t, and let v be the maximum
+rank vertex on P. Let $\mathcal{L}$ = (${L}_{f}$ , ${L}_{b}$).
+We show that v $\in$ ${L}_{f}$(s); the case v $\in$ ${L}_{b}$(t)
+is similar.
+Consider the shortest path P' from s to v. Since shortest paths are
+unique, P' $\subseteq$ P, and therefore v is the maximum rank vertex on P'.
+It follows
+that the only vertex of P that is in ${L}_{b}$(v) is v. Thus v must be in ${L}_{f}$(s). 
+
+
+\end{proof}
+From theorem we can consequence that size of Canonical Labels is smaller than the size of Hierarchial Labels.	
+Therefore we can prune hubs in labels by calculating the canonical labels.
 
 
 %% ------------------------

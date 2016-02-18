@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.17)  17 FEB 2016 20:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.17)  18 FEB 2016 14:11
 entering extended mode
 **ausarbeitung.tex
 
@@ -34,6 +34,19 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+("C:\Users\s_hayrap\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.s
+ty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks14
+\thm@bodyfont=\toks15
+\thm@headfont=\toks16
+\thm@notefont=\toks17
+\thm@headpunct=\toks18
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks19
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2014/06/25 v2.9a programmable bibliographies (PK/JW/AB)
 
@@ -53,7 +66,7 @@ Package: etex 2016/01/11 v2.6 eTeX basic definition package (PEB,DPC)
 ("C:\Users\s_hayrap\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
 .sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks20
 )
 ("C:\Users\s_hayrap\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
 ons.sty"
@@ -136,14 +149,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@parenlevel@text=\count125
 \blx@parenlevel@foot=\count126
 \blx@sectionciteorder@0=\count127
-\labelnumberwidth=\skip43
-\labelalphawidth=\skip44
-\biblabelsep=\skip45
-\bibitemsep=\skip46
-\bibnamesep=\skip47
-\bibinitsep=\skip48
-\bibparsep=\skip49
-\bibhang=\skip50
+\labelnumberwidth=\skip46
+\labelalphawidth=\skip47
+\biblabelsep=\skip48
+\bibitemsep=\skip49
+\bibnamesep=\skip50
+\bibinitsep=\skip51
+\bibparsep=\skip52
+\bibhang=\skip53
 \blx@bcfin=\read1
 \blx@bcfout=\write3
 \c@mincomprange=\count128
@@ -223,12 +236,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedlanguage=\count194
 \c@pageref=\count195
 \c@savedpageref=\count196
-\shorthandwidth=\skip51
-\shortjournalwidth=\skip52
-\shortserieswidth=\skip53
-\shorttitlewidth=\skip54
-\shortauthorwidth=\skip55
-\shorteditorwidth=\skip56
+\shorthandwidth=\skip54
+\shortjournalwidth=\skip55
+\shortserieswidth=\skip56
+\shorttitlewidth=\skip57
+\shortauthorwidth=\skip58
+\shorteditorwidth=\skip59
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -371,6 +384,12 @@ Missing character: There is no ¦ in font cmr10!
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+\c@H_in_C=\count208
+
 (\\studhome.ira.uka.de\s_hayrap\windows\folders\Documents\Ausarbeitung_Routenpl
 anung\ausarbeitung.toc)
 \tf@toc=\write4
@@ -388,7 +407,7 @@ No file sections/content.tex.
 No file sections/evaluation.tex.
 No file sections/conclusion.tex.
 
-LaTeX Warning: Empty bibliography on input line 152.
+LaTeX Warning: Empty bibliography on input line 188.
 
 No file sections/appendix.tex.
 
@@ -409,11 +428,11 @@ anung\sections/appendix.aux))
 Package logreq Info: Writing requests to 'ausarbeitung.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 5832 strings out of 493921
- 103890 string characters out of 3147273
- 495952 words of memory out of 3000000
- 9068 multiletter control sequences out of 15000+200000
- 8195 words of font info for 29 fonts, out of 3000000 for 9000
+ 5937 strings out of 493921
+ 105135 string characters out of 3147273
+ 497244 words of memory out of 3000000
+ 9168 multiletter control sequences out of 15000+200000
+ 8541 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,6n,35p,829b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -429,10 +448,12 @@ ts/cm/cmr10.pfb><C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/s_hayrap/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/U
 sers/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on ausarbeitung.pdf (3 pages, 125540 bytes).
+cmsy10.pfb><C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ausarbeitung.pdf (3 pages, 152231 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
