@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.17)  18 FEB 2016 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.17)  18 FEB 2016 19:54
 entering extended mode
 **ausarbeitung.tex
 
@@ -384,11 +384,13 @@ Missing character: There is no ¦ in font cmr10!
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+\c@max_unique=\count208
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-\c@H_in_C=\count208
+\c@H_in_C=\count209
 
 (\\studhome.ira.uka.de\s_hayrap\windows\folders\Documents\Ausarbeitung_Routenpl
 anung\ausarbeitung.toc)
@@ -397,17 +399,17 @@ anung\ausarbeitung.toc)
 (\\studhome.ira.uka.de\s_hayrap\windows\folders\Documents\Ausarbeitung_Routenpl
 anung\ausarbeitung.lof)
 \tf@lof=\write5
-
+ [2]
 (\\studhome.ira.uka.de\s_hayrap\windows\folders\Documents\Ausarbeitung_Routenpl
 anung\ausarbeitung.lot)
 \tf@lot=\write6
- [2]
+ [3]
 No file sections/introduction.tex.
 No file sections/content.tex.
 No file sections/evaluation.tex.
 No file sections/conclusion.tex.
 
-LaTeX Warning: Empty bibliography on input line 188.
+LaTeX Warning: Empty bibliography on input line 209.
 
 No file sections/appendix.tex.
 
@@ -428,11 +430,11 @@ anung\sections/appendix.aux))
 Package logreq Info: Writing requests to 'ausarbeitung.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 5937 strings out of 493921
- 105135 string characters out of 3147273
- 497244 words of memory out of 3000000
- 9168 multiletter control sequences out of 15000+200000
- 8541 words of font info for 30 fonts, out of 3000000 for 9000
+ 5946 strings out of 493921
+ 105241 string characters out of 3147273
+ 497329 words of memory out of 3000000
+ 9176 multiletter control sequences out of 15000+200000
+ 9239 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,6n,35p,829b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -450,10 +452,11 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/U
 sers/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy7.pfb><C:/Users/s_hayrap/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ausarbeitung.pdf (3 pages, 152231 bytes).
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/s_hayrap/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on ausarbeitung.pdf (4 pages, 164434 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

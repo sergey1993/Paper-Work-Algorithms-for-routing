@@ -136,7 +136,28 @@ The last section is about results, label sizes and query time.
 			has the 	highest rank on ${P}_{st}$, and therefore r(v) $\geq$ r(s) and r(v) $\geq$ r(t).
 
 				This also implies that the canonical labeling respects r. \\
+\newtheorem{max_unique}{Lemma}
+	\begin{max_unique}
+		Let $\mathcal{L}$ be a hierarchical labeling. Then the set of vertices on any shortest path has
+		a unique maximum element with respect to the partial order implied by $\mathcal{L}$.
+		\begin{proof}
+			The proof is by induction on the number of vertices on the path.
+			The result is trivial for paths with a single vertex.
+ 			Consider a path $\mathit{{v}_{1}}$, $\dots$, $\mathit{{v}_{k}}$ with k $\geq$2.
+ 			The subpath $\mathit{{v}_{2}}$,  $\dots$, $\mathit{{v}_{k}}$ has a maximum vertex $\mathit{{v}_{i}}$ 	                
+ 			by the inductive assumption.
+ 			Consider the subpath $\mathit{{v}_{1}}$,  $\dots$, $\mathit{{v}_{i}}$. 
+ 			The internal vertices $\mathit{{v}_{j}}$ are note in ${L}_{r}$(${v}_{i}$) by the choice of ${v}_{i}$.
+ 			Therefore either ${v}_{i}$ $\in$ ${L}_{f}$(${v}_{1}$) (and ${v}_{i}$ is the maximum vertex on the path),
+ 			or ${v}_{1}$ $\in$ ${L}_{r}$(${v}_{i}$) (and ${v}_{1}$ is the maximum vertex).
 
+ 			
+ 			
+ 			
+		\end{proof}
+
+	\end{max_unique}
+	
 \newtheorem{H_in_C}{Theorem}
 
  \begin{H_in_C}
